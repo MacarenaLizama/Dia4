@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+}
+div{
+    border:1px solid azure;
+    padding: 10px;
+    margin: 20px;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+.seccion1{
+    display:flex;
+    flex-direction: row;
+    background-color: #6bb0e9;
+    border: 20px solid #6bb0e9;
+    justify-content: space-evenly;
+}
+.seccion2{
+    display:flex;
+    flex-direction: row;
+    background-color: #a3718f;
+    border: 20px solid #a3718f;
+    justify-content:space-evenly;
+}
+.seccion3{
+    display:flex;
+    flex-direction: row;
+    background-color: white;
+    border: 20px solid white;
+    justify-content: space-evenly;
+}
+.comentario{
+    text-decoration: underline;
+    color:rgb(115, 171, 245);
+}
+h1{
+    text-align: center;
+    font-size:50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(63, 59, 59);
+}
+p{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
